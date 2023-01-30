@@ -1,0 +1,116 @@
+body{
+    background-color: lightblue;
+    border:10px groove greenyellow;
+    margin: 5px;
+}
+div{
+    background-color: black;
+    border:5px groove red;
+    height: 2.5cm;
+    width: 30%;
+    border-radius:20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    }
+span{
+    font-style: italic;
+    color: white;
+    width: 20px;
+    border-radius: 20px;
+    }
+    div.set1{
+     padding-top: 10px;
+     margin-left: 10px;
+     position: relative;
+     bottom:25px;
+       }
+    div.set2{
+    align-self: center;
+    
+    width: 30%;
+    padding-top: 30px;
+    position: relative;
+    left:-100px;
+     
+    }
+    div.set3{
+        margin-left:50px ;
+        padding-top: 5px;
+        position: relative;
+        top: 10px;
+        
+    }
+    div.circle{
+        border-radius:50%;
+        border: 4.5px groove gray;
+        height: 6.5cm;
+        width: 6.5cm;
+        background-color:mediumseagreen;
+        display:inline-block;
+        color: black;
+        text-decoration: underline;
+        margin: 20px;
+        position: relative;
+        bottom: 200px;
+    }
+    p.circle1{
+        
+        height: 3em;
+        
+     text-align: center;
+       
+    }
+    
+    form{
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 5px;
+        align-self: center;
+        border-style: dashed;
+        border-color: red;
+        text-align:center;
+        border-width: 5px;
+        background-color: white;
+        display: inline-block;
+
+    }
+    label{
+        color: red;
+    }
+    input{
+        text-align: center;
+    }
+    div.set4{
+        align-self: center;
+        height: 1cm;
+        margin-left: 350px;
+    }
+    div.set6{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        background-color:lightblue;
+        border: 1px;
+        height:9cm;
+        width:28cm;
+        
+        
+    }
+    div.set5{
+        background-color: aqua;
+        border: 2px solid gray;
+        height: 250px;
+        width: 1000px;
+        padding: 15px;
+        margin: 20px;
+        text-transform: capitalize;
+
+    }
+    ul{
+        font-size:medium;
+        
+    }
+    div.one{
+        display: flex;
+    }
